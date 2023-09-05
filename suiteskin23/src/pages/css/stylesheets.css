@@ -1,0 +1,391 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+/* BACKGROUND */
+#bggggg2 {
+    background-image: url("../../images/botanical4.jpg");
+    background-color: rgb(255, 255, 255);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow: auto;
+    animation: fadein 1.3s ease-in forwards;
+}
+
+/*PARAGRAPHH FONT */
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 1rem;
+  background-color: rgb(131, 141, 118);
+  color: white;
+  text-align: center;
+}
+/* RESPONSIVE IMAGE */
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+/* TRANSITIONS */
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+/* NAVBAR STYLING */
+
+nav {
+  display: block;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(131, 141, 118);
+    border-radius: 10px;
+  }
+  
+  .navbar a {
+    float: left;
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #2b5d4c;
+    color: white;
+  }
+
+  .hidelinks {
+    display: none;
+  }
+
+  .dropdown:hover + .hidelinks {
+    display: initial;
+  }
+
+  #brand {
+    font-size: 24px;
+    height: 30px;
+  }
+
+/* LANDING STYLING */
+#landing {
+    text-align:center;
+    height: 100%;
+    background-color: rgba(232, 252, 245, 0.397);
+    margin-top: 20%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#enterbtn {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    border-radius: 50%;
+    font-size: 40px;
+    display: inline-block;
+    border:none;
+    background-color:  rgb(216, 214, 202);
+    text-align: center;
+    padding: 30px 32px;
+    transition-duration: 0.4s;
+    margin: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+}
+
+.row {
+    text-align: center;
+}
+
+#enterbtn:hover {
+    background-color:rgb(150, 175, 117);
+}
+
+/* HEADER */
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size:86px;
+    text-shadow: 3px 3px 6px rgb(47, 46, 46);
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size:62px;
+  text-shadow: 2px 2px 4px rgb(47, 46, 46);
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size:40px;
+  background-color:rgb(145, 175, 170);
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px rgb(47, 46, 46);
+}
+
+/* BANNER */
+#banner {
+text-align:center;
+height: 100%;
+background-color: rgb(90, 128, 122);
+color: white;
+border-radius: 10px;
+margin-bottom: 3%;
+padding: 2%;
+padding-bottom: 50px;;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transform: translateY(100px);
+animation: expand ease-in-out forwards 2.5s;
+}
+
+/* HOME STYLING */
+
+#homediv {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    max-height: 50%;
+    background-color: rgba(232, 252, 249, 0.397);
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(100px);
+    animation: expand ease-in-out forwards 3s;
+}
+
+#plantpic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding:1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #socmed:hover {
+    transform: scale(1.5);
+    transition-duration: .5s;
+  }
+
+  /* SERVICES PAGE */
+
+  #bggggg4 {
+      background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical1.png?raw=true");
+      background-color: rgb(255, 255, 255);
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:contain;
+      height: 100vh;
+      overflow: auto;
+      animation: fadein 3.1s;
+      -webkit-animation-iteration-count: 1;
+  }
+
+  #servicesmaindiv {
+    overflow: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: rgba(232, 252, 249, 0.397);
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(100px);
+    animation: expand ease-in-out forwards 3s;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+li {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+  /* BEFORE AND AFTER PAGE */
+
+  #bggggg3 {
+    background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical2.png?raw=true");
+    background-color: rgb(255, 255, 255);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow: auto;
+    animation: fadein 1.3s;
+    -webkit-animation-iteration-count: 1;
+}
+
+  .carousel {
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #baamaindiv {
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 10%;
+      border-radius: 10px;
+      max-height: 50%;
+      background-color: rgba(232, 252, 249, 0.397);
+      padding: 2%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transform: translateY(100px);
+      animation: expand ease-in-out forwards 3s;
+  }
+
+  span {
+    background-color:rgb(90, 128, 122);
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* PRODUCTS PAGE */
+
+  #bggggg5 {
+    background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical3.jpg?raw=true");
+    background-color: rgb(255, 255, 255);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow: auto;
+    animation: fadein 3.1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+  #prodmaindiv {
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 10%;
+      border-radius: 10px;
+      background-color: rgba(232, 252, 249, 0.397);
+      padding: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transform: translateY(100px);
+      animation: expand ease-in-out forwards 3s;
+  }
+
+  #product1 {
+    float: left;
+  }
+
+  #product2 {
+    float: right;
+  }
+
+  #product3 {
+    float: left;
+  }
+
+  #product4 {
+    float: right;
+  }
+
+  #product5 {
+    float: left;
+  }
+
+  #bumpdown {
+    margin-top: 100px;
+  }
+
+  /* CONTACT PAGE */
+
+  #bggggg6 {
+    background-image: url("../../images/6729crop1.jpg");
+    background-color: rgb(255, 255, 255);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow:auto;
+    animation: fadein 3.1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+  #contactmaindiv {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: rgba(232, 252, 249, 0.397);
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(100px);
+    animation: expand ease-in-out forwards 3s;
+}
+
+.linhenpic {
+  width: 200px;
+  float: left;
+  border-radius: 5px;
+  margin: 5px;
+}
