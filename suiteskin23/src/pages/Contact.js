@@ -24,7 +24,7 @@ const Contact = () => {
                         <CustomDiv id="contactmaindiv">
                             <Row>
                                 <Col size="md-12">
-                                    <h2>Contact</h2>
+                                    <h2 id="bumpdown">Contact</h2>
                                     <p><b>Located in:</b> Carolinas HealthCare System Blue Ridge Morganton</p>
                                     <p><b>Address:</b> 2209 S Sterling St, Suite 400, Morganton, NC 28655</p>
                                     <p><b>Phone:</b> (828) 764-5087</p>
@@ -33,13 +33,13 @@ const Contact = () => {
 
                             <Row>
                                 <Col size="md-6">
-                                    <h3>About your Esthetician</h3>
+                                    <h3 id='bumpdown'>About your Esthetician</h3>
                                     <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/linhen.png?raw=true" class="linhenpic"></img>Lindsey Henderson has joined the location of Women's Health - Morganton. Lindsey is a graduate of Lurlenn B. Wallace Community College in Opp, Alabama, where she received extensive education about the skin and esthetics. She started her career in a medspa where she was trained and certified in more advanced treatments.</p>
                                     <p>In addition to offering facials and waxing, Lindsey is also trained and certified in microdermabrasion, dermaplaning, chemical peels, lash lifting, tinting and has advanced acne education.</p>
                                 </Col>
 
                                 <Col size="md-6">
-                                    <h3>Hours</h3>
+                                    <h3 id="bumpdown">Hours</h3>
                                     <p><b>Monday:</b> 9am - 5pm </p>
                                     <p><b>Tuesday:</b> 9am - 5pm </p>
                                     <p><b>Wednesday:</b> 9am - 5pm </p>

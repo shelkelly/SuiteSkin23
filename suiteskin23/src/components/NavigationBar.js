@@ -9,7 +9,7 @@ function Nav() {
       <a className="navbar-link" href="/Services" className="services">
         Services
       </a>
-      <a className="navbar-link" href="/BeforeAndAfter" id="bg03">
+      <a className="navbar-link" href="/BandA" id="bg03">
         Before and After
       </a>
       <a className="navbar-link" href="/Products" id="bg04">

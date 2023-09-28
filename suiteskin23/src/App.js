@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
 import Enter from "./pages/Enter";
 import Services from "./pages/Services";
+import BandA from "./pages/BandA";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 
@@ -29,6 +30,7 @@ export default class App extends Component {
               <Route exact path="/Home" exact element={Enter()} />
               <Route exact path="/Enter" exact element={Enter()} />
               <Route exact path="/Services" exact element={Services()} />
+              <Route exact path="/BandA" exact element={BandA()} />
               <Route exact path="/Contact" exact element={Contact()} />
               <Route exact path="/Products" exact element={Products()} />
               <Route exact element={NoMatch} />
