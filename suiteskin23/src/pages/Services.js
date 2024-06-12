@@ -54,21 +54,18 @@ const Services = () => {
                             <CustomDiv id="wax">
                                 <h3>Waxing</h3>
                                 <ul>
-                                    <li>Arm Wax........$40.00</li>
+                                    <li>Arm Wax........$45.00</li>
                                     <li>Back Wax.........$50.00+</li>
                                     <li>Bikini Wax........$35.00</li>
                                     <li>Brazilian Wax........$60.00</li>
-                                    <li>Brazilian Maintenance.....$50.00</li>
-                                    <li>Brow and Lip Wax.......$20.00</li>
-                                    <li>Brow Shaping.......$20.00</li>
-                                    <li>Brow Wax Cleanup....$15.00+</li>
-                                    <li>Brow Wax and Tint.....$25.00</li>
-                                    <li>Chin Wax.......$10.00</li>
-                                    <li>Lip Wax........$10.00</li>
-                                    <li>Full Face Wax.......$45.00+</li>
-                                    <li>Full Leg Wax.......$60.00</li>
-                                    <li>Half Leg Wax.......$40.00</li>
-                                    <li>Under Arm Wax.......$30.00</li>
+                                    <li>Brow Wax.......$20.00+</li>
+                                    <li>Brow Wax and Tint.....$40.00</li>
+                                    <li>Chin Wax.......$15.00</li>
+                                    <li>Lip Wax........$12.00</li>
+                                    <li>Full Face Wax.......$55.00+</li>
+                                    <li>Full Leg Wax.......$85.00+</li>
+                                    <li>Half Leg Wax.......$45.00</li>
+                                    <li>Under Arm Wax.......$35.00</li>
                                 </ul>
                             </CustomDiv>
                             <CustomDiv id="lashes">
