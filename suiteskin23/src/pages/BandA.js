@@ -29,7 +29,7 @@ const BandA = () => {
                 <Row>
                     <Col size="md-12">
                         <div class="footer">
-                            C Suite Skin by Lindsey
+                            &copy; Suite Skin by Lindsey
                         </div>
                     </Col>
                 </Row>

@@ -26,7 +26,7 @@ const Contact = () => {
                                 <Col size="md-12">
                                     <h2 id="bumpdown">Contact</h2>
                                     <p><b>Located in:</b> Carolinas HealthCare System Blue Ridge Morganton</p>
-                                    <p><b>Address:</b> 2209 S Sterling St, Suite 400, Morganton, NC 28655</p>
+                                    <p><b>Address:</b> 502 S Green St, Morganton, NC 28655</p>
                                     <p><b>Phone:</b> (828) 764-5087</p>
                                 </Col>
                             </Row>
@@ -65,7 +65,7 @@ const Contact = () => {
                 <Row>
                     <Col size="md-12">
                         <div class="footer">
-                            C Suite Skin by Lindsey
+                            &copy; Suite Skin by Lindsey
                         </div>
                     </Col>
                 </Row>
