@@ -30,7 +30,7 @@ const Enter = () => {
                 <Col size="md-8">
                     <CustomDiv id="homediv">
 
-                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/ssbl.png?raw=true" id="plantpic" class="center" alt="Suite Skin by Lindsey Logo"></img></p>
+                        <p><img src="https://github.com/shelkelly/SuiteSkin23/blob/main/suiteskin23/src/images/ssbllogonew.jpg?raw=true" id="plantpic" class="center" alt="Suite Skin by Lindsey Logo"></img></p>
 
                         <p>Welcome to Suite Skin!</p>
                         <p>Here, results are our primary objective. Whether holistic or more rigorous, the products we offer will fit any of your needs. Products are selected based on healthy and necessary ingredients, but not at the cost of results.</p>
